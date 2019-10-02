@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>This is the Index</title>
+    </head>
+    <body>
+        <form method="POST">
+                {{ form.hidden_tag() }}
+
+                <label>Username:</label>
+                {{ form.username() }}
+
+                <label>Password:</label>
+                {{ form.password() }}
+                <button type="submit" value="Login" name="login">Log In</button>
+        </form>
+    </body>
+</html>
